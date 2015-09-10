@@ -20,7 +20,7 @@ Installation
    //if you don't have it already
    npm install -g browserify
 
-   git clone git@github.com:rynomad/chrome-ndn
+   git clone git@github.com:rynomad/protochrome.git
    cd chrome-ndn
    npm install
 
