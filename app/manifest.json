@@ -1,0 +1,23 @@
+{
+  "name": "web+ndn:",
+  "description": "an http to ndn proxy",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "sockets": {
+    "udp": {
+      "send": "*"
+    },
+    "tcp": {
+      "connect": "*"
+    },
+    "tcpServer": {
+      "listen": "*"
+    }
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}

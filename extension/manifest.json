@@ -1,0 +1,14 @@
+{
+  "name": "ndn://",
+  "description": "ndn uri scheme for the omnibox",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "omnibox":{
+    "keyword" : "ndn"
+  },
+  "permissions":[ "management"],
+  "background": {
+    "persistent": false,
+    "scripts": ["index.js"]
+  }
+}
