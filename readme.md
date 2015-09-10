@@ -21,7 +21,7 @@ Installation
    npm install -g browserify
 
    git clone git@github.com:rynomad/protochrome.git
-   cd chrome-ndn
+   cd protochrome
    npm install
 
    browserify app/index.js > app/background.js
